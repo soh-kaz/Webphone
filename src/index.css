@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.icon-sm{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.icon-md{
+  width: 2rem;
+  height: 2rem;
+}
+.icon-lg{
+  width: 4rem;
+  height: 4rem;
+}
+.icon-xl{
+  width: 6rem;
+  height: 6rem;
+}
+.icon-2xl{
+  width: 8rem;
+  height: 8rem;
+}
+.icon-full{
+  width: 100%;
+  height: 100%;
+}
+
+.grid-cols-4
+{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-cols-3
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-cols-2
+{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+.active-line {
+  background-color: #002281 !important;
+}
+
+.blink-text {
+  animation: blinkAnimation 1s infinite; /* Adjust the animation duration as needed */
+}
+
+@keyframes blinkAnimation {
+  0% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+#wbp-dialog::backdrop{
+  background-color:red !important;
+}
+
+#wbp-dialog{
+  /* width: 40%; */
+}
+
+
+
+#wbp-phone {
+
+
+  /* only transition on transform properties which are hardware accelerated = way better performances */
+  -webkit-transition:-webkit-transform .3s ease;
+      -moz-transition:   -moz-transform .3s ease;
+      -ms-transition:    -ms-transform .3s ease;
+          transition:        transform .3s ease;
+}
+
