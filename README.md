@@ -82,3 +82,7 @@ phone.on('unmute', (data)=>{
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 Please make sure to update tests as appropriate.
+
+
+## Screenshot
+![Webphone Image](https://raw.githubusercontent.com/soh-kaz/Webphone/main/screenshots/3.jpg)
